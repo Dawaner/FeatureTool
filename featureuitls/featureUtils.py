@@ -1,6 +1,6 @@
 import pandas as pd
 
-from code import typeUtils
+from featureuitls import typeUtils
 
 
 feature_name_flag = "FEATURE_NAME"
