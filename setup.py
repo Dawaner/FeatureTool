@@ -12,14 +12,14 @@ with open(path.join(here, 'README.md'), 'r', encoding='utf-8') as f:
 install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
 
 setup(
-    name='pypi_test',  # 必填，项目的名字，用户根据这个名字安装，pip install SpiderKeeper-new
+    name='feature-tool',  # 必填，项目的名字，用户根据这个名字安装，pip install SpiderKeeper-new
     version='1.0.0',  # 必填，项目的版本，建议遵循语义化版本规范
     author='yanghy',  # 项目的作者
-    description='pypi测试',  # 项目的一个简短描述
+    description='feature-tool',  # 项目的一个简短描述
     long_description=long_description,  # 项目的详细说明，通常读取 README.md 文件的内容
     long_description_content_type='text/markdown',  # 描述的格式，可选的值： text/plain, text/x-rst, and text/markdown
-    author_email='1046474088@qq.com',  # 作者的有效邮箱地址
-    url='null',  # 项目的源码地址
+    author_email='784166768@qq.com',  # 作者的有效邮箱地址
+    url='https://github.com/Dawaner/FeatureTool',  # 项目的源码地址
     license='MIT',
     include_package_data=True,
     package_data= {
