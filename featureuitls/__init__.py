@@ -1,1 +1,1 @@
-from featureuitls import featureUtils, typeUtils
+from featureuitls.featureUtils import get_feature_info
