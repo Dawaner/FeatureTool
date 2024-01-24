@@ -19,7 +19,7 @@ def print_info(data):
 
 def get_feature_info(data):
     """
-    获取特征信息
+    获取特征信息: 读取第一行/表头并输出
     :param data: 数组、字典、dataFrame、numpy.array、csv、excel（表格使用路径传入）
     :return: 输出信息至控制台
     """
