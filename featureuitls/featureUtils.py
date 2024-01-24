@@ -14,7 +14,8 @@ def print_error_info(info_type):
 
 
 def print_info(data):
-    print(info_flag + "[" + ",".join(data) + "]")
+    print(info_flag)
+    print("[" + ",".join(data) + "]")
 
 
 def get_feature_info(data):

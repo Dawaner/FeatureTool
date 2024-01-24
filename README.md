@@ -5,4 +5,8 @@ data格式: 数组、字典、dataFrame、numpy.array、csv、excel（表格使�
 
 说明: 读取第一行/表头并输出 (一维数组直接输出)
 
-输出格式: [ALIOTH - INFO - FEATURE_NAME] [xxx,xxx,xxx]
+输出格式: 
+```text
+[ALIOTH - INFO - FEATURE_NAME] 
+[xxx,xxx,xxx]
+```
