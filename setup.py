@@ -13,7 +13,7 @@ install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
 
 setup(
     name='dw-feature-tool',  # 必填，项目的名字，用户根据这个名字安装，pip install SpiderKeeper-new
-    version='1.0.4',  # 必填，项目的版本，建议遵循语义化版本规范
+    version='1.0.5',  # 必填，项目的版本，建议遵循语义化版本规范
     author='Dawaner',  # 项目的作者
     description='feature-tool',  # 项目的一个简短描述
     long_description=long_description,  # 项目的详细说明，通常读取 README.md 文件的内容
